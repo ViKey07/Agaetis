@@ -4,11 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./form.css">
     <title>Document</title>
 </head>
 <body>
-    <form action="">
-        <input type="text" placeholder="Add a title for a blog">
+    <form class="form" action="">
+        <label for="title">Title</label><br>
+        <input id="title" type="text" placeholder="Add a title for a blog">
+        <br>
+
+        <label for="author">Author name</label><br>
+        <input id="author" type="text" placeholder="Enter author name">
+        <br>
+
+        <label for="desc">Add Description</label><br>
+        <textarea id="desc" placeholder="Add a description for a blog"></textarea>
+        <br>
+
+        <label for="image">Add an Image</label><br>
+        <input id="image" type="file" name="image">
+        <br>
+
     </form>
 </body>
 </html>
